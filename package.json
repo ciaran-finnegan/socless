@@ -32,5 +32,9 @@
     "serverless": "2.57.0",
     "lambda-packager": "git+https://github.com/twilio-labs/socless_lambda_packager.git#v0.1.0",
     "sls-apb": "git+https://github.com/twilio-labs/sls-apb.git#1.4.3"
+  },
+  "config":{
+    "aws_profile": "socless-dev-AWSAdministratorAccess",
+    "dev": "--stage dev --region ap-southeast-2"
   }
 }
